@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6A094621E5EBFF30016212D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A094611E5EBFF30016212D /* main.m */; };
+		F6A094651E5EBFF30016212D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A094641E5EBFF30016212D /* AppDelegate.m */; };
+		F6A094681E5EBFF30016212D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A094671E5EBFF30016212D /* ViewController.m */; };
+		F6A0946B1E5EBFF30016212D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6A094691E5EBFF30016212D /* Main.storyboard */; };
+		F6A0946D1E5EBFF30016212D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6A0946C1E5EBFF30016212D /* Assets.xcassets */; };
+		F6A094701E5EBFF30016212D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6A0946E1E5EBFF30016212D /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F6A0945D1E5EBFF30016212D /* StudentTimeTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudentTimeTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6A094611E5EBFF30016212D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F6A094631E5EBFF30016212D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F6A094641E5EBFF30016212D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F6A094661E5EBFF30016212D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F6A094671E5EBFF30016212D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F6A0946A1E5EBFF30016212D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6A0946C1E5EBFF30016212D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6A0946F1E5EBFF30016212D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6A094711E5EBFF30016212D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6A0945A1E5EBFF30016212D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6A094541E5EBFF30016212D = {
+			isa = PBXGroup;
+			children = (
+				F6A0945F1E5EBFF30016212D /* StudentTimeTable */,
+				F6A0945E1E5EBFF30016212D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6A0945E1E5EBFF30016212D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6A0945D1E5EBFF30016212D /* StudentTimeTable.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6A0945F1E5EBFF30016212D /* StudentTimeTable */ = {
+			isa = PBXGroup;
+			children = (
+				F6A094631E5EBFF30016212D /* AppDelegate.h */,
+				F6A094641E5EBFF30016212D /* AppDelegate.m */,
+				F6A094661E5EBFF30016212D /* ViewController.h */,
+				F6A094671E5EBFF30016212D /* ViewController.m */,
+				F6A094691E5EBFF30016212D /* Main.storyboard */,
+				F6A0946C1E5EBFF30016212D /* Assets.xcassets */,
+				F6A0946E1E5EBFF30016212D /* LaunchScreen.storyboard */,
+				F6A094711E5EBFF30016212D /* Info.plist */,
+				F6A094601E5EBFF30016212D /* Supporting Files */,
+			);
+			path = StudentTimeTable;
+			sourceTree = "<group>";
+		};
+		F6A094601E5EBFF30016212D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6A094611E5EBFF30016212D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6A0945C1E5EBFF30016212D /* StudentTimeTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6A094741E5EBFF30016212D /* Build configuration list for PBXNativeTarget "StudentTimeTable" */;
+			buildPhases = (
+				F6A094591E5EBFF30016212D /* Sources */,
+				F6A0945A1E5EBFF30016212D /* Frameworks */,
+				F6A0945B1E5EBFF30016212D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StudentTimeTable;
+			productName = StudentTimeTable;
+			productReference = F6A0945D1E5EBFF30016212D /* StudentTimeTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6A094551E5EBFF30016212D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Suresh;
+				TargetAttributes = {
+					F6A0945C1E5EBFF30016212D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F6A094581E5EBFF30016212D /* Build configuration list for PBXProject "StudentTimeTable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6A094541E5EBFF30016212D;
+			productRefGroup = F6A0945E1E5EBFF30016212D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6A0945C1E5EBFF30016212D /* StudentTimeTable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6A0945B1E5EBFF30016212D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6A094701E5EBFF30016212D /* LaunchScreen.storyboard in Resources */,
+				F6A0946D1E5EBFF30016212D /* Assets.xcassets in Resources */,
+				F6A0946B1E5EBFF30016212D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6A094591E5EBFF30016212D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6A094681E5EBFF30016212D /* ViewController.m in Sources */,
+				F6A094651E5EBFF30016212D /* AppDelegate.m in Sources */,
+				F6A094621E5EBFF30016212D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F6A094691E5EBFF30016212D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6A0946A1E5EBFF30016212D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6A0946E1E5EBFF30016212D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6A0946F1E5EBFF30016212D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6A094721E5EBFF30016212D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6A094731E5EBFF30016212D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6A094751E5EBFF30016212D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StudentTimeTable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NeoRays.StudentTimeTable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F6A094761E5EBFF30016212D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StudentTimeTable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NeoRays.StudentTimeTable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6A094581E5EBFF30016212D /* Build configuration list for PBXProject "StudentTimeTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6A094721E5EBFF30016212D /* Debug */,
+				F6A094731E5EBFF30016212D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6A094741E5EBFF30016212D /* Build configuration list for PBXNativeTarget "StudentTimeTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6A094751E5EBFF30016212D /* Debug */,
+				F6A094761E5EBFF30016212D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6A094551E5EBFF30016212D /* Project object */;
+}
